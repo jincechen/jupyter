@@ -7,3 +7,5 @@ install.packages(c(
   "lmtest",
   "broom"
 ))
+
+IRkernel::installspec(user = FALSE)
