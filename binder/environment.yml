@@ -1,0 +1,30 @@
+name: playground-env
+
+channels:
+  - conda-forge
+
+dependencies:
+  # ---------- Python ----------
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - statsmodels
+  - scikit-learn
+  - sympy
+  - pip
+  - pip:
+      - linearmodels
+
+  # ---------- R ----------
+  - r-base=4.5
+  - r-irkernel
+  - r-tidyverse
+  - r-fixest
+  - r-sandwich
+  - r-lmtest
+  - r-broom
+
+  # ---------- Julia ----------
+  - julia=1.12
