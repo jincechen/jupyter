@@ -1,5 +1,8 @@
 numpy
+scipy
 pandas
 matplotlib
-scipy
-jupyterlab
+statsmodels
+linearmodels
+sympy
+scikit-learn

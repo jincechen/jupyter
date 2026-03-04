@@ -1,5 +1,9 @@
 install.packages(c(
   "tidyverse",
   "ggplot2",
-  "dplyr"
+  "dplyr",
+  "fixest",
+  "sandwich",
+  "lmtest",
+  "broom"
 ))
