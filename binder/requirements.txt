@@ -1,8 +1,8 @@
 numpy
 scipy
+sympy
 pandas
 matplotlib
 statsmodels
 linearmodels
-sympy
 scikit-learn
